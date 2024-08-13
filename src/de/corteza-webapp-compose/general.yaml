@@ -1,123 +1,185 @@
----
 label:
-  actions: Actions
-  active: Active
-  add: Add
-  addNew: Add new
-  addValue: Neue Variable hinzufügen
-  attachmentFileInfo: '(Dateigöße {{0}}, hochgeladen am {{1}})'
-  attributes: Attributes
-  back: Back
-  backWithoutSave: Back (without saving changes)
-  browse: Browse
+  app-name:
+    public: Namensräume
+    private: Namensräume - Admin
+  actions: Aktion
+  active: Aktiv
+  add: Hinzufügen
+  add-with-plus: + Hinzufügen
+  addNew: Neu hinzufügen
+  addValue: Neuen Wert hinzufügen
+  ascending: Aufsteigend
+  attachmentFileInfo: '(Dateigröße: {{0}}, hochgeladen {{1}})'
+  attributes: Attribute
+  back: Zurück
+  backWithoutSave: Zurück (ohne Änderungen zu speichern)
+  block: Blockieren
+  browse: Durchsuchen
   buttons: Buttons
-  cancel: Cancel
-  clone: Clone
-  close: Close
-  create: Create
-  delete: Delete
+  cancel: Abbrechen
+  clear: Leeren
+  clone: Klonen
+  close: Schließen
+  create: Erstellen
+  delete: Löschen
+  restore: Wiederherstellen
+  descending: Absteigend
   description: Beschreibung
-  download: Download
-  dropFiles: Click or drop files here to upload
-  edit: Edit
+  download: Herunterladen
+  dropFiles: Klicke oder ziehe Dateien hier um sie hochzuladen
+  edit: Bearbeiten
   enabled: Aktiviert
-  export: Export
-  fileTypeNotAllowed: File type not allowed
-  uploadError: 'Issue with file upload: "{{message}}"'
-  general: General
+  export: Exportieren
+  fileTypeNotAllowed: Dateityp nicht erlaubt
+  general: Allgemein
   handle: Handle
-  here: here
-  import: Import
-  importPlaceholder: Upload files to import
-  label: Label
-  loading: Loading
-  makeDefault: Make default
-  moduleName: Module name
-  multi: Multi value
+  here: hier
+  home: Zuhause
+  import: Importieren
+  all: Alle
+  importPlaceholder: Dateien zum Importieren hochladen
+  loading: Wird geladen
+  makeDefault: Standard festlegen
+  moduleName: Modulname
+  multi: Multi
   name: Name
-  next: Next
-  "no": "No"
-  noHandle: No handle
-  none: None
+  next: Weiter
+  no: No
+  noHandle: Kein Handle
+  none: Keine
+  now: Jetzt
   ok: Ok
-  openBookmarks: Open bookmarks
-  pageBuilder: Page builder
-  permissions: Permissions
-  private: Private
-  processing: Processing...
-  recordPage: Record page
-  remove: Remove
-  removeDefault: Remove default
-  required: Required
-  save: Save
-  saveAndClose: Save and close
-  search: Search
+  page: Seite
+  pageLayout: Seitenlayout
+  pageBuilder: Seitenersteller
+  permissions: Berechtigungen
+  private: Privat
+  privacy: Privatsphäre
+  processing: Verarbeitung...
+  record: Datensatz
+  recordPage: Datensatzseite
+  field: Feld
+  remove: Entfernen
+  removeDefault: Standard entfernen
+  required: Pflichtfeld
+  reset: Reset
+  sensitive: Sensitiv
+  save: Speichern
+  saveAndClose: Speichern und schließen
+  saveAsCopy: Als Kopie speichern
   status: Status
   timeHour: '{{t}}h'
   timeMinute: '{{t}}min'
-  title: Title
-  type: Type
-  updatedAt: '$t(field.system.updatedAt)'
-  uploading: Uploading
-  urlPlaceholder: https://example.tld
-  validation: Validation
-  value: Value
-  view: View
-  welcome: Welcome!
-  "yes": "Yes"
+  today: Heute
+  title: Titel
+  type: Typ
+  updatedAt: Aktualisiert am
+  uploadError: 'Problem mit dem Datei-Upload: "{{message}}"'
+  uploading: Wird hochgeladen
+  urlPlaceholder: https://beispiel.tld
+  validation: Validierung
+  view: Ansicht
+  yes: Yes
+  chart:
+    single: Diagramm
+    plural: Diagramm
+  namespace:
+    single: Namensraum
+    plural: Namensräume
+  module:
+    single: Modul
+    plural: Module
+navigation:
+  chart: Diagramm
+  namespace: Namensräume
+  module: Module
+  page: Seite
+  pageLayout: Seitenlayout
 placeholder:
-  handle: handle (a - z, 0 - 9, underscore, dash)
-  sample: Sample
+  handle: Handle (ein - z, 0 - 9, Unterstrich, Bindestrich)
+  sample: Beispiel
 reminder:
-  add: Add a new reminder
-  dismiss: Dismiss
+  add: Erinnerung hinzufügen
+  dismiss: Verwerfen
+  dismissed: Verworfen
+  dismissedAt: Verworfen am
+  undismiss: Rückgängig machen
+  delete: Erinnerung löschen
+  recordPageLink: Datensatz anzeigen
   edit:
-    assigneeLabel: Assignee
-    assigneePlaceholder: Myself (default)
-    notesLabel: Notes
-    notesPlaceholder: Notes
-    remindAtLabel: Notify me
-    remindAtNone: Never
-    titleLabel: Title
-    titlePlaceholder: Title
-  listLabel: Reminders
-  routesTo: Link label
-  snooze: Snooze
+    label: Erinnerung bearbeiten
+    assigneeLabel: Empfänger
+    assigneePlaceholder: Mich selbst (Standard)
+    notesLabel: Notizen
+    notesPlaceholder: Notizen
+    remindAtLabel: Erinnere mich an
+    remindAtNone: Nie
+    titleLabel: Titel
+    titlePlaceholder: Titel
+  listLabel: Erinnerungen
+  routesTo: Beschriftung für Seitenlink
+  snooze:
+    label: Schlummern
+    count: Schlummeranzahl {{count}}
 tooltip:
-  dragAndDrop: Drag and drop to change order
+  dragAndDrop: Drag and Drop um Reihenfolge zu ändern
+  field: Feld konfigurieren
 fieldKinds:
   Bool:
-    label: Checkbox (Y/N)
+    label: Kontrollkästchen (J/N)
   DateTime:
-    label: Date and time
+    label: Datum und Uhrzeit
   Email:
-    label: Email input
+    label: E-Mail-Eingabe
   File:
-    label: File upload
+    label: Datei hochladen
   Number:
-    label: Number input
+    label: Zahleneingabe
   Record:
-    label: Record selector
+    label: Datensatzauswahl
   Select:
-    label: Select / dropdown
+    label: Auswählen / Dropdown
   String:
-    label: Text input (string)
+    label: Texteingabe (String)
   Url:
-    label: URL input
+    label: URL Eingabe
   User:
-    label: User selector
+    label: Benutzerauswahl
   Geometry:
-    label: Geometry
+    label: Geometrie
 field:
-  selectAll: Select all
-  unselectAll: Unselect all
+  selectAll: Alles auswählen
+  tooltip:
+    permissions: Feldberechtigungen
+  unselectAll: Alles abwählen
   kind:
     user:
-      suggestionPlaceholder: Start typing to search for users by email or name
-notification:
-  composeAccessNotAllowed: Not allowed to access Compose
-  import:
-    failed: Import failed
-    readingError: Error reading file
-    successful: Import successful
-    typeMissmatch: 'Import error: trying to import object of type "{{type1}}" into a list of objects of type "{{type2}}"'
+      suggestionPlaceholder: Tippen, um nach Benutzern per E-Mail oder Namen zu suchen
+resourceList:
+  notFound: Nicht gefunden
+  noItems: Keine Elemente zum Anzeigen
+  pagination:
+    next: Weiter
+    prev: Vorherige
+    showing: '{{from}} - {{to}} von {{count}} {{data}}'
+    single: 'Ein {{data}}'
+    single_plural: '{{count}} {{data}}'
+    recordsPerPage: Datensätze pro Seite
+recordNavigation:
+  next: Nächster Datensatz
+  prev: Vorheriger Datensatz
+variants:
+  primary: Primär
+  secondary: Sekundär
+  light: Hell
+  dark: Dunkel
+  info: Info
+  success: Erfolg
+  danger: Gefahr
+  warning: Warnung
+editor:
+  unsavedChanges: Nicht gespeicherte Änderungen gehen verloren. Möchten Sie die Seite verlassen?
+themes:
+  labels:
+    light: Hell
+    dark: Dunkel
