@@ -1,9 +1,8 @@
----
 editor:
   info:
     completedAt: Abgeschlossen am
     createdAt: Erstellt am
-    createdByUserID: Erstellt bei - ID
+    createdBy: Created by - ID
     createdByUserName: Erstellt bei - Name
     delete: Löschen
     deletedAt: Deleted at
@@ -14,6 +13,8 @@ editor:
     status: Status
     title: Grundlegende Informationen
     workflowID: WorkflowID
+    openWorkflow: Open workflow
+    cancel: Cancel session
   title: Sitzung
 list:
   columns:
@@ -21,6 +22,7 @@ list:
     createdAt: Created At
     eventType: Ereignistyp
     sessionID: SitzungsID
+    state: State
     status: Status
     workflowID: WorkflowID
   filterForm:

@@ -1,4 +1,3 @@
----
 list:
   columns:
     action: Aktion
@@ -8,6 +7,7 @@ list:
     resource: Resource
     severity: Severity
     timestamp: Timestamp
+  loading: Loading actions
   details:
     id: 'ID'
     header: 'Details'

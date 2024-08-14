@@ -1,4 +1,3 @@
----
 errors:
   invalidID: ungültige ID
   notAllowedToDelete: diese Sitzung kann nicht gelöscht werden

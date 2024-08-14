@@ -1,10 +1,10 @@
----
 errors:
   handleNotUnique: Alias nicht eindeutig
   invalidHandle: ungültiger Alias
   invalidID: ungültige ID
   invalidNamespaceID: ungültige oder fehlende Namespace-ID
   nameNotUnique: Name nicht eindeutig
+  fieldNameReserved: field name reserved
   namespaceNotFound: Namespace nicht vorhanden
   notAllowedToCreate: Erstellen von Modulen ist nicht zulässig
   notAllowedToDelete: dieses Modul kann nicht gelöscht werden
@@ -16,3 +16,4 @@ errors:
   notAllowedToUpdate: dieses Modul kann nicht aktualisiert werden
   notFound: Modul nicht vorhanden
   staleData: alte Daten
+  dedupConfigurationInvalidMissingConstraint: missing constraints on deduplication configuration

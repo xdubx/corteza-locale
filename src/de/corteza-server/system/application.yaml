@@ -1,4 +1,3 @@
----
 errors:
   invalidID: Ungültige ID
   notAllowedToCreate: Erstellen von Anwendungen ist nicht zulässig

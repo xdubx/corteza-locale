@@ -1,4 +1,3 @@
----
 template:
   title: Ihr Profil
   form:
@@ -12,6 +11,14 @@ template:
     handle:
       label: Alias
       placeholder: Kurzname, Nickname oder Alias
+    avatar:
+      label: Profilbild
+      delete: Löschen
+      upload: Profilbild hochladen
+    avatar-initial:
+      label: Avatar initial
+      color: Avatar text color
+      background-color: Avatar background color
     preferred-language:
       label: Bevorzugte Sprache
     buttons:
@@ -19,3 +26,5 @@ template:
 alerts:
   profile-updated: Das Profil wurde erfolgreich aktualisiert.
   profile-update-fail: Das Profil konnte aufgrund von Eingabefehlern nicht aktualisiert werden.
+  profile-avatar-uploaded: Profile avatar successfully uploaded
+  profile-avatar-deleted: Profile avatar successfully deleted

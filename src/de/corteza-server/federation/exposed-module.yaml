@@ -1,4 +1,3 @@
----
 errors:
   composeModuleNotFound: Modul compose nicht gefunden
   composeNamespaceNotFound: Namespace compose nicht gefunden

@@ -1,8 +1,14 @@
-de:
-  clickToRetry: Click to retry
-  downloadForAll: Download to see all pages
-  firstPagePreview: First page preview
-  loading: Loading
-  noPages: This document is empty
-  pageLoadFailed: Page failed to load
-  pageLoading: '$t(preview.pdf.loading)'
+general:
+  label:
+    attachmentFileInfo: '(Dateigröße: {{0}}, hochgeladen {{1}})'
+    download: Herunterladen
+  tooltip:
+    dragAndDrop: Ziehen und Ablegen um die Reihenfolge zu ändern
+pdf:
+  clickToRetry: Klicke zum Wiederholen
+  downloadForAll: Herunterladen um alle Seiten zu sehen
+  firstPagePreview: Vorschau der ersten Seite
+  loading: Lädt
+  noPages: Dieses Dokument ist leer
+  pageLoadFailed: Fehler beim Laden der Seite
+  pageLoading: Lädt

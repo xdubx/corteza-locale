@@ -1,11 +1,10 @@
----
 help:
-  documentation: Dokumentation
-  feedback: Feedback senden
-  forum: Hilfe
+  documentation: Documentation
+  feedback: Send feedback
+  forum: Help
   version: 'Version:'
 userSettings:
-  changePassword: Passwort ändern
-  loggedInAs: Angemeldet als {{user}}
-  logout: Abmelden
-  profile: Profil
+  changePassword: Change password
+  loggedInAs: Logged in as {{user}}
+  logout: Logout
+  profile: Profile

@@ -1,4 +1,3 @@
----
 errors:
   invalidID: ungültige ID
   notAllowedToAssign: Erinnerungen können anderen Benutzern nicht zugewiesen werden

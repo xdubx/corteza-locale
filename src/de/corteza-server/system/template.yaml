@@ -1,4 +1,3 @@
----
 errors:
   cannotRenderPartial: Teil-Templates können nicht wiedergegeben werden
   invalidHandle: ungültiger Handle

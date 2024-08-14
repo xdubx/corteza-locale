@@ -1,0 +1,63 @@
+clear: Leeren
+description: Beschreibung
+enabled: Aktiviert
+enable: Aktivieren
+disable: Deaktivieren
+error: Fehler
+error-expression: Fehlernachricht (Ausdruck)
+export: Exportieren
+general: Allgemein
+handle: Handle
+import:
+  json: JSON importieren
+  label: Importieren
+  reassign-run-as: "HINWEIS: Die Ausführung als Workflow-Eigenschaft wird nicht importiert und sollte neu zugewiesen werden"
+  upload-files: Durchsuchen oder Ablegen von Dateien zum Hochladen...
+label:
+  all: Alle
+  label: Bezeichnung
+loading: Lädt
+name: Name
+new-workflow: Neuer Workflow
+none: Keine
+now: Jetzt
+offset: Versatz
+offset-expression: Versatz (Ausdruck)
+permissions: Berechtigungen
+searchPlaceholder: Tippen Sie hier, um alle Workflows zu durchsuchen...
+subworkflow: Subworkflow
+subworkflows: Subworkflows
+deleted: Gelöscht
+disabled: Deaktivieren
+without: Ohne
+only: Nur
+including: Inklusive
+unnamed-workflow: Unbenannter Arbeitsablauf
+workflow-list: Liste der Workflows
+workflow:
+  single: Workflow
+  plural: Workflows
+save: Speichern
+today: Heute
+cancel: Abbrechen
+resourceList:
+  notFound: Nicht gefunden
+  noItems: Keine Elemente zum Anzeigen
+  pagination:
+    next: Weiter
+    prev: Vorherige
+    showing: '{{from}} - {{to}} von {{count}} {{data}}'
+    single: 'Ein {{data}}'
+    single_plural: '{{count}} {{data}}'
+    recordsPerPage: Datensätze pro Seite
+tooltip:
+  permissions: Workflow-Berechtigungen
+columns:
+  name: Name
+  enabled: Aktiviert
+  steps: Steps
+  changedAt: Last change
+themes:
+  labels:
+    light: Light
+    dark: Dark

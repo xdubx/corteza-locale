@@ -1,4 +1,3 @@
----
 errors:
   notAllowedToCreate: Erstellen von Knoten ist nicht zulässig
   notAllowedToManage: dieser Knoten kann nicht verwaltet werden

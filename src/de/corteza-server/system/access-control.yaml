@@ -1,3 +1,2 @@
----
 errors:
-  notAllowedToSetPermissions: Festlegen von Berechtigungen ist nicht zulässig
+  notAllowedToSetPermissions: not allowed to set permissions

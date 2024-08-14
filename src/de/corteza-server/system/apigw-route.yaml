@@ -1,4 +1,3 @@
----
 errors:
   alreadyExists: Route über diesen Endpunkt bereits vorhanden
   existsEndpoint: Route mit diesem Endpunkt bereits vorhanden
@@ -10,4 +9,5 @@ errors:
   notAllowedToRead: diese Route kann nicht gelesen werden
   notAllowedToUndelete: diese Route kann nicht wiederhergestellt werden
   notAllowedToUpdate: diese Route kann nicht aktualisiert werden
+  notAllowedToSearch: not allowed to list or search routes
   notFound: Route nicht gefunden

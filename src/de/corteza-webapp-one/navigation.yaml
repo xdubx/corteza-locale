@@ -1,7 +1,6 @@
----
-adminPanel: Admin Panel
+adminPanel: Adminbereich
 automation: Automatisierung
-chart: Charts
+chart: Diagramme
 configuration: Konfiguration
 help:
   documentation: Dokumentation
@@ -9,13 +8,17 @@ help:
   forum: Hilfe
   version: 'Version:'
 module: Module
-more: Weitere
-namespace: Namespaces
+more: Mehr
+namespace: Namensräume
 noPageTitle: Kein Seitentitel
 page: Seiten
 publicPages: Öffentliche Seiten
 userSettings:
   changePassword: Passwort ändern
-  loggedInAs: Angemeldet als {{user}}
+  loggedInAs: Als {{user}} angemeldet
   logout: Abmelden
   profile: Profil
+themes:
+  labels:
+    light: Hell
+    dark: Dunkel

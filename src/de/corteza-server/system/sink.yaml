@@ -1,4 +1,3 @@
----
 errors:
   badSinkParamEncoding: bad encoding of sink parameters
   contentLengthExceedsMaxAllowedSize: Inhaltslänge überschreitet maximal zulässige Größe

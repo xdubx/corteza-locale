@@ -1,6 +1,39 @@
----
 label:
-  add: + Hinzufügen
+  add: Hinzufügen
+  and: Und
+  all: Alle
+  ascending: Aufsteigend
   back: Zurück
+  clear: Leeren
+  cancel: Abbrechen
   delete: Löschen
+  descending: Absteigend
+  loading: Lädt
+  name: Name
+  none: Keine
+  now: Jetzt
+  ok: Ok
+  or: Oder
+  openLinkInNewTab: Link in einem neuen Tab öffnen
   save: Speichern
+  saveAndClose: Speichern und schließen
+  today: Heute
+  urlPlaceholder: https://beispiel.tld
+  default: Standard
+  report:
+    single: Bericht
+    plural: Berichte
+resourceList:
+  notFound: Nicht gefunden
+  noItems: Keine Elemente zum Anzeigen
+  pagination:
+    next: Weiter
+    prev: Vorherige
+    showing: '{{from}} - {{to}} von {{count}} {{data}}'
+    single: 'Ein {{data}}'
+    single_plural: '{{count}} {{data}}'
+    recordsPerPage: Datensätze pro Seite
+themes:
+  labels:
+    light: Hell
+    dark: Dunkel

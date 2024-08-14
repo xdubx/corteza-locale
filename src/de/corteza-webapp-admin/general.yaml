@@ -1,0 +1,63 @@
+label:
+  general:
+    yes: Yes
+    no: No
+  template:
+    single: Vorlage
+    plural: Vorlagen
+  user:
+    single: Benutzer
+    plural: Benutzer
+  role:
+    single: Rolle
+    plural: Rollen
+  application:
+    single: Anwendung
+    plural: Anwendungen
+  auth_client:
+    single: Auth Client
+    plural: Auth Clients
+  queue:
+    single: Nachrichtenwarteschlange
+    plural: Nachrichtenwarteschlangen
+  route:
+    single: Route
+    plural: Routen
+  connection:
+    single: Datenbankverbindung
+    plural: Datenbankverbindungen
+  sensitivity_level:
+    single: Empfindlichkeitsstufe
+    plural: Empfindlichkeitsstufen
+  session:
+    single: Sitzung
+    plural: Sitzungen
+  workflow:
+    single: Workflow
+    plural: Workflows
+  plus-add: + Hinzufügen
+  clear: Leeren
+  all: Alle
+  none: Keine
+  now: Jetzt
+  today: Heute
+  routes: Routen
+  requests: Anfragen
+  refresh: Aktualisieren
+  loadMore: Mehr laden
+  loading: Lädt
+  saveAndClose: Speichern und schließen
+  cancel: Abbrechen
+  submit: Absenden
+  delete: Löschen
+  undelete: Wiederherstellen
+  fileTypeNotAllowed: Dateityp nicht erlaubt
+editor:
+  unsavedChanges: Nicht gespeicherte Änderungen gehen verloren. Möchten Sie die Seite verlassen?
+resourceList:
+  pagination:
+    recordsPerPage: Datensätze pro Seite
+themes:
+  labels:
+    light: Hell
+    dark: Dunkel

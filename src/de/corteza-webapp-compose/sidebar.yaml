@@ -1,5 +1,12 @@
----
-namespaceList: Namespace list
-noPages: No pages
-pickNamespace: Select a namespace
-searchPlaceholder: Search pages...
+adminPanel: Adminbereich
+chart: Diagramm
+manageNamespaces: Namensräume verwalten
+module: Module
+noPages: Keine Seiten
+page: Seiten
+pickNamespace: Wählen Sie einen Namensraum
+publicPages: Öffentliche Seiten
+editNamespace: Namensraum bearbeiten
+searchPlaceholder:
+  admin: Suche Ressourcen...
+  public: Seiten suchen...

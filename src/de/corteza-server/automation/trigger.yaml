@@ -1,4 +1,3 @@
----
 errors:
   invalidID: Ungültige ID
   notAllowedToCreate: Erstellen von Triggern ist nicht zulässig

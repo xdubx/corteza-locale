@@ -1,5 +1,5 @@
----
 errors:
+  invalidConfiguration: Invalid report configuration
   invalidID: ungültige ID
   notAllowedToCreate: Erstellen von Berichten ist nicht zulässig
   notAllowedToDelete: dieser Bericht kann nicht gelöscht werden

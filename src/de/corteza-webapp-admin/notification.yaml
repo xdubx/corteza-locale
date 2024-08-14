@@ -1,12 +1,15 @@
 general:
-  error: Error
-  success: Success
-  warning: Warning
+  error: Fehler
+  success: Vorgang erfolgreich
+  warning: Warnung
 notAllowed: Not allowed to access Admin Area. Redirecting
-list: 
+list:
   load:
     error: 'Failed to load resource list'
 user:
+  external-auth-providers:
+    error: External auth providers fetch failed
+    success: External auth providers updated
   fetch:
     error: User fetch failed
   roles:
@@ -40,6 +43,15 @@ user:
     error: User suspension failed
   import:
     success: Users imported successfully
+  avatarUpload:
+    success: Avatar updated
+    error: Avatar upload failed
+  avatarSettings:
+    success: Avatar settings updated
+    error: Avatar settings update failed
+  avatarDelete:
+    success: Avatar deleted
+    error: Avatar delete failed
 role:
   fetch:
     error: Role fetch failed
@@ -129,6 +141,9 @@ queue:
   delete:
     success: Queue deleted
     error: Queue delete failed
+  undelete:
+    success: Queue restored
+    error: Queue restore failed
 gateway:
   fetch:
     error: Route fetch failed
@@ -150,6 +165,12 @@ gateway:
   undelete:
     success: Route restored
     error: Route restore failed
+  profiler:
+    fetch:
+      error: Requests fetch failed
+    purge:
+      success: Requests purged
+      error: Requests purge failed
 workflow:
   fetch:
     error: Workflow fetch failed
@@ -170,6 +191,9 @@ session:
     error: Session fetch failed
   trigger:
     error: Trigger fetch failed
+  cancel:
+    success: Session canceled
+    error: Session cancel failed
 federation:
   fetch:
     error: Node fetch failed
@@ -196,6 +220,22 @@ federation:
   handshake:
     success: Handshake complete paired
     error: Handshake failed
+sensitivityLevel:
+  create:
+    success: Sensitivity level created
+    error: Sensitivity level create failed
+  delete:
+    success: Sensitivity level deleted
+    error: Sensitivity level delete failed
+  fetch:
+    success: Sensitivity level fetched
+    error: Sensitivity level fetch failed
+  undelete:
+    success: Sensitivity level restored
+    error: Sensitivity level restore failed
+  update:
+    success: Sensitivity level updated
+    error: Sensitivity level update failed
 settings:
   system:
     fetch:
@@ -206,6 +246,16 @@ settings:
     external:
       success: External settings updated
       error: External settings update failed
+    bgScreen:
+      style:
+        success: Auth background styles updated
+        error: Auth background styles update failed
+    smtpCheck:
+      success: SMTP configuration check  passed
+      error: SMTP configuration check failed
+    apigw:
+      success: Integration gateway settings saved
+      error: Integration gateway settings update failed
   compose:
     fetch:
       error: Compose settings fetch failed
@@ -215,6 +265,9 @@ settings:
   ui:
     fetch:
       error: UI settings fetch failed
+    update:
+      success: UI settings updated
+      error: UI settings update failed
 permissions:
   fetch:
     error: Permissions fetch failed
@@ -226,4 +279,18 @@ permissions:
     error: Permissions clone failed
   role:
     error: Failed to add role
-
+connection:
+  fetch:
+    error: Connection fetch failed
+  update:
+    success: Connection updated
+    error: Connection update failed
+  create:
+    success: Connection created
+    error: Connection create failed
+  delete:
+    success: Connection deleted
+    error: Connection delete failed
+  undelete:
+    success: Connection restored
+    error: Connection restore failed

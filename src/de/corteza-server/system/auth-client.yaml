@@ -1,4 +1,3 @@
----
 errors:
   invalidID: Ungültige ID
   notAllowedToCreate: Erstellen von Auth-Clients ist nicht zulässig
@@ -11,3 +10,5 @@ errors:
   unableToChangeDefaultClientHandle: Handle des Standard-Auth-Clients kann nicht geändert werden
   unableToDeleteDefaultClient: Standard-Auth-Client kann nicht gelöscht werden
   unableToDisableDefaultClient: Standard-Auth-Client kann nicht deaktiviert werden
+  unknownGrantType: unknown grant type
+  unknownScope: unknown scope

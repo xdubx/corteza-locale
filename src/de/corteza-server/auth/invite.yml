@@ -1,0 +1,14 @@
+template:
+  title: Einladung annehmen
+  form:
+    email:
+      label: E-Mail
+      placeholder: email@domain.ltd
+    new-password:
+      label: Passwort
+      placeholder: Passwort
+    buttons:
+      password: Passwort festlegen
+alert:
+  invalid-expired-invite-token: Ungültiger oder abgelaufener Benutzereinladungstoken, bitte fordern Sie ein Passwort-Zurücksetzen an.
+  success: Passwort erfolgreich geändert

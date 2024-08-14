@@ -1,0 +1,29 @@
+start:
+  welcome: Willkommen bei Corteza
+  instructions: Hallo! Du hast dein Corteza Konto erfolgreich erstellt. Bist du bereit zu beginnen? Klicke auf "Zeige mir" für eine kurze Anleitung durch die grundlegenden Funktionalitäten.
+  skip: Tour überspringen
+  show: Zeigen
+buttons:
+  skip: Tour überspringen
+  previous: Zurück
+  next: Weiter
+  end: Ende
+steps:
+  app-list:
+    title: Anwendungsmenü
+    content: This is where you can see the list of available applications. When in an application, you can always return to this list by clicking on the 6-dots icon in the top right corner.
+  crm:
+    title: Beispiel Namensraum - CRM
+    content: Here you can access CRM, an example of the low-code configuration. You can navigate through the application from the sidebar on the left where you'll see a list of available pages. To insert an example data, click on a "+ Add" button on any record list.
+  low-code:
+    title: Liste der Low-Code-Anwendungen (Namensräume)
+    content: Here you can create a new Low-Code application (namespace) or start working on some pre-configured applications (e.g. CRM). These applications do not show up on the Application Menu by default.
+  reporter:
+    title: List of Reports
+    content: To make advanced dashboard views with aggregated data from several modules, different tables and charts, start building a new report.
+  profile:
+    title: Profileinstellungen
+    content: To update your profile settings, set the language, change the password or set up 2-factor authentication, follow the link below the user icon.
+  workflow:
+    title: Liste der Workflows
+    content: Take your Low-Code applications to the next level with the visual workflow builder, where you can automate any process to cover your organization's needs. Start building a new workflow or review the existing ones.

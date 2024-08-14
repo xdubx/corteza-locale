@@ -1,0 +1,6 @@
+errors:
+  empty: Dieses Feld ist erforderlich
+  invalidValue: Ungültiger Feldwert
+  invalidRef: Ungültige Feldreferenz
+  duplicateValueInSet: Dieser Wert existiert bereits in der Liste
+  duplicateValue: Der Wert "{{value}}" existiert bereits in einem anderen Datensatz

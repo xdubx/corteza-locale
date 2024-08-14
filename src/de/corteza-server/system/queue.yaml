@@ -1,4 +1,3 @@
----
 errors:
   alreadyExists: Warteschlange mit diesem Namen bereits vorhanden
   invalidConsumer: ungültiger Verbraucher

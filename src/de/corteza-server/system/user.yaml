@@ -1,4 +1,3 @@
----
 errors:
   emailNotUnique: E-Mail ist nicht eindeutig
   handleNotUnique: Handle ist nicht eindeutig

@@ -1,4 +1,3 @@
----
 errors:
   failedToDownloadAttachment: 'Anlage konnte nicht heruntergeladen werden von {attachmentURL}: {err}'
   failedToLoadUser: Nutzer konnte nicht geladen werden für {recipient}

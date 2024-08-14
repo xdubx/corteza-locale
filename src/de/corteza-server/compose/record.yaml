@@ -1,4 +1,3 @@
----
 errors:
   fieldNotFound: Feld {field} existiert nicht
   importSessionAlreadActive: Importsitzung ist bereits aktiv

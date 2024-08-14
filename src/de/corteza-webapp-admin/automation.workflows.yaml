@@ -1,11 +1,12 @@
----
 editor:
   info:
     createdAt: Erstellt am
+    createdBy: Created by
     delete: Löschen
     deletedAt: Gelöscht am
     enabled: Aktiviert
     handle: Handle
+    invalid-handle-characters: Should be at least 2 characters long. Can contain only letters, numbers, dashes, underscores and dots. Must end with letter or number
     id: ID
     name: Name
     openBuilder: Builder öffnen
@@ -30,6 +31,14 @@ list:
     createdAt: Erstellt
     enabled: Aktiviert
     handle: Name
+    name: Name
+    state: State
+  delete: Delete
+  undelete: Undelete
+  export: Export
+  rows:
+    filters:
+      deleted: Deleted
   filterForm:
     deleted:
       label: gelöschte Workflows

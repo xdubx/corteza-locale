@@ -1,7 +1,7 @@
----
 editor:
   info:
     createdAt: Created at
+    createdBy: Created by
     delete: Delete
     deletedAt: Deleted at
     enabled: Aktiviert
@@ -21,9 +21,10 @@ editor:
       label: Configuration
     listed: Listed
     logo:
-      description: Logo used in the application selector
       label: Logo
+      description: Logo used in the application selector
       placeholder: Choose a logo or drop it here...
+      reset: Reset
     name:
       description: Name used in the application selector
       label: Name
@@ -38,6 +39,12 @@ list:
     createdAt: Erstellt
     enabled: Aktiviert
     name: Name
+    appListName: App selector name
+    state: State
+  export: Export
+  rows:
+    filters:
+      deleted: Deleted
   filterForm:
     deleted:
       label: deleted applications
@@ -57,3 +64,5 @@ list:
   permissions: Permissions
   title: Applications
   yaml: YAML
+  delete: Delete
+  undelete: Undelete

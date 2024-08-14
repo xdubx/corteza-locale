@@ -1,4 +1,3 @@
----
 errors:
   handleNotUnique: Alias nicht eindeutig
   invalidHandle: ungültiger Alias

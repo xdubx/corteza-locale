@@ -1,4 +1,3 @@
----
 applications:
   applications: Anwendung(en)
   deleted: Gelöscht
@@ -12,6 +11,7 @@ roles:
   total: Gesamt
 title: Dashboard
 users:
+  created: Created users(s)
   deleted: Gelöscht
   suspended: Gesperrt
   title: Aktive(r) Benutzer

@@ -1,5 +1,6 @@
----
 errors:
+  asyncRouteTooManyProcessers: processer already exists for this async route
+  asyncRouteTooManyAfterFilters: no after filters are allowd for this async route
   invalidID: ungültige ID
   invalidRoute: ungültige Route
   notAllowedToCreate: Erstellen von Filtern ist nicht zulässig

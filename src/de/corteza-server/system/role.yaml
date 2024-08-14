@@ -1,4 +1,3 @@
----
 errors:
   handleNotUnique: Rollenalias ist nicht eindeutig
   invalidHandle: ungültiger Alias

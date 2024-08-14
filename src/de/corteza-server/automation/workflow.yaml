@@ -1,4 +1,3 @@
----
 errors:
   disabled: deaktivierter Workflow oder Trigger
   handleNotUnique: Workflow-Handle ist nicht eindeutig

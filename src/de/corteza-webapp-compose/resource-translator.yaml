@@ -1,0 +1,28 @@
+translator:
+  save-changes: Speichern
+  add-language: Sprache hinzufügen
+  missing-translation: Fehlende Übersetzung
+resources:
+  chart:
+    title: Diagramm "{{ handle }}"
+    tooltip: Diagrammübersetzungen
+  namespace:
+    title: Namensraum "{{ handle }}"
+    tooltip: Namensraum-Übersetzungen
+  module:
+    title: Modul "{{ handle }}"
+    tooltip: Modulübersetzungen
+    field:
+      title: Modulfeld "{{ name }}"
+      tooltip: Feldübersetzungen
+  page:
+    title: Seite "{{ handle }}"
+    tooltip: Seitenübersetzungen
+    block:
+      title: "Seitenblock #{{ blockID }}"
+      tooltip: Block translations
+    layout:
+      title: Seitenlayout "{{ handle }}"
+  page-layout:
+    title: Seitenlayout "{{ handle }}"
+    tooltip: Seitenlayoutübersetzungen

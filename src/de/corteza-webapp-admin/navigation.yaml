@@ -1,4 +1,3 @@
----
 dashboard: Dashboard
 system:
   group: System
@@ -8,10 +7,13 @@ system:
     apigw: API-Gateway
     applications: Anwendungen
     authclients: Auth-Clients
+    connections: Connections
+    sensitivityLevel: Sensitivity Levels
     permissions: Berechtigungen
     queues: Message Queues
     roles: Rollen
     settings: Einstellungen
+    email: Email settings
     stats: Statistik
     templates: Templates
 compose:

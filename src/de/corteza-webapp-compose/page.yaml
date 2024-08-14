@@ -1,20 +1,150 @@
----
+page-layout:
+  layouts: Layouts
+  title: Titel *
+  handle: Handle
+  add: Layout hinzufügen
+  configure: 'Layout konfigurieren - "{{title}}"'
+  visibility: Sichtbarkeit
+  general: Allgemein
+  useTitle: Layouttitel verwenden
+  tooltip:
+    title: Use the layout title instead of the record page default. Variables like {{0}}, {{1}}, {{2}} and {{3}} are evaluated (when available)
+    configure: Layout konfigurieren
+    builder: Layout im Builder öffnen
+    performance:
+      condition: Using visibility conditions will impact performance
+  condition:
+    label: Condition
+    placeholder: When will the layout be shown
+    description:
+      record-page: "You can use {{0}}, {{1}}, {{2}}, {{3}} inside  the expression, for example: {{4}} or {{5}}"
+      non-record-page: "You can use {{0}}, {{1}} inside  the expression, for example: {{2}} or {{3}}"
+  roles:
+    label: Rollen
+    placeholder: Pick roles that the layout will be shown to
+  recordToolbar:
+    label: Datensatz-Symbolleiste
+    buttons:
+      label: Buttons
+      showBack: '"Zurück" Button anzeigen'
+      showDelete: '"Löschen"-Taste anzeigen'
+      showClone: '"Als Kopie speichern"-Button anzeigen'
+      showNew: '"Neu hinzufügen"-Button anzeigen'
+      showEdit: '"Bearbeiten" Button anzeigen'
+      showSave: '"Speichern" Button anzeigen'
+    actions:
+      label: Aktion
+      add: Aktion hinzufügen
+      buttonLabel: Bezeichnung
+      variant: Variante
+      visible: Sichtbar
+      kind:
+        label: Typ
+        toLayout: Zum Layout umleiten
+        toURL: Auf URL umleiten
+      placement:
+        label: Platzierung
+        start: Start
+        center: Zentriert
+        end: Ende
+      openIn:
+        label: Öffnen in
+        sameTab: Gleicher Tab
+        newTab: Neuer Tab
+      toLayout:
+        label: Zum Layout umleiten
+        placeholder: Kein Layout ausgewählt
+      toURL:
+        label: Auf URL umleiten
+        placeholder: Keine URL angegeben
+block:
+  general:
+    label:
+      cancel: Abbrechen
+      noHandle: Kein Handle
+      pageBuilder: Seitenersteller
+      saveAndClose: Speichern und schließen
+    placeholder:
+      handle: Handle (ein - z, 0 - 9, Unterstrich, Bindestrich)
+      sample: Beispiel
+    title: Neuen Block hinzufügen
+    invalid-handle-characters: Should be at least 2 characters long. Can contain only letters, numbers, dashes, underscores and dots. Must end with letter or number
+changeBlock: Bestehenden Block ändern
+referencedBlock: This block is used in other layouts
+copyOf: "Copy of {{title}}"
 build:
   addBlock: Add block
-  selectBlockFootnote: Some types might be disabled for non-record pages
   selectBlockTitle: Select type of the new block
-createLabel: Create page
+  unsavedChanges: Unsaved changes will be lost. Do you wish to leave the page?
+  saveAsCopy:
+    ref: With references
+    noRef: Without references
+createLabel: Seite erstellen
 edit:
-  create: Create page
-  edit: Edit page
-  pageDescription: Page description
-  visible: Page visibility
-import: 'Import page(s):'
-instructions: Drag and drop pages to adjust the order and hierarchy.
-invalid: Invalid configuration
-newPlaceholder: Page title
-noBlock: No block added yet
-notVisible: Hidden
-title: List of Pages
-view: View
-visible: Visible
+  create: Seite erstellen
+  edit: Seite bearbeiten
+  pageDescription: Seitenbeschreibung
+  visible: Is page visible
+  otherOptions: Andere Optionen
+icon:
+  configure: Seitenicon konfigurieren
+  noIcon: Kein Icon
+  page: Seiten-Icon
+  upload: Icon hochladen
+  list: Hochgeladene Icon
+  delete: Ausgewähltes Icon löschen
+url:
+  label: Oder fügen Sie URL zum Icon hinzu
+import: 'Seite importieren(n):'
+instructions: Drag and Drop Seiten um Reihenfolge und Hierarchie anzupassen
+invalid: Ungültige Konfiguration
+label:
+  cancel: Abbrechen
+  description: Beschreibung
+  handle: Handle
+  pageBuilder: Seitenersteller
+  permissions: Berechtigungen
+  saveAndClose: Speichern und schließen
+  delete: Block löschen
+loading: Lädt
+moduleEdit: Modul bearbeiten
+navigation:
+  page: Seiten
+  viewPage: Seite anzeigen
+unsavedChanges: Nicht gespeicherte Änderungen gehen verloren. Möchten Sie die Seite verlassen?
+newPlaceholder: Seitentitel
+noBlock: Noch kein Block hinzugefügt
+noPages: Keine Seiten
+notVisible: Versteckt
+pageMoveFailed: Diese Seite konnte nicht verschoben werden
+reordered: Seite neu sortiert
+showSubPages: Unterseiten in der Seitenleiste erweitern
+customTitle: Eigenen Titel verwenden
+title: Liste der Seiten
+tooltip:
+  unsavedChanges: Ungespeicherte Änderungen
+  view: Seite anzeigen
+  edit:
+    page: Seite bearbeiten
+    block: Block bearbeiten
+  copy:
+    block: Block kopieren
+  clone:
+    block: Block kopieren
+  delete:
+    block: Block löschen
+  preview-link: Link Vorschau
+  saveAsCopy: Kann Datensatzseite nicht duplizieren
+view: Ansicht
+visible: Sichtbar
+delete:
+  rebase: Update parent of sub-pages
+  cascade: Unterseiten löschen
+public:
+  record:
+    create:
+      title: Erstelle Datensatz für Modul "{{name}}"
+    edit:
+      title: Eintrag für Modul "{{name}} " bearbeiten
+    view:
+      title: Erstelle Datensatz für Modul "{{name}}"
