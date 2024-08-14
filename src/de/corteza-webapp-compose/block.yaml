@@ -11,7 +11,7 @@ automation:
   badge:
     script: Skript
     workflow: Workflow
-  buttonLabel: Label
+  buttonLabel: Bezeichnung
   buttonVariant: Variant
   configuredButtons: Configured buttons
   dummyButtonLabel: Dummy
@@ -28,23 +28,23 @@ automation:
   searchPlaceholder: Filter available scripts by label, script name and description
   stepID: 'Starting step ID: {{stepID}}'
   variants:
-    primary: Primary
-    secondary: Secondary
+    primary: Primär
+    secondary: Sekundär
     light: Hell
     dark: Dunkel
     success: Erfolgreich
     danger: Gefahr
-    warning: Warning
+    warning: Warnung
 calendar:
-  addEventsSource: Add events source
-  calendarHeader: Calendar header
-  feedLabel: Configure events source
+  addEventsSource: Ereignisquelle hinzufügen
+  calendarHeader: Kalenderüberschrift
+  feedLabel: Ereignisquelle konfigurieren
   feedPlaceholder: Select a feed source
-  eventSource: Event source
-  hideHeader: Hide calendar header
-  hideNavigation: Hide prev/next button
-  hideTitle: Hide title text
-  hideToday: Hide today button
+  eventSource: Ereignisquelle
+  hideHeader: Kalenderüberschrift ausblenden
+  hideNavigation: Vorherige/Weiter Button ausblenden
+  hideTitle: Titeltext ausblenden
+  hideToday: Heutige Button ausblenden
   label: Calendar
   recordFeed:
     colorPicker: Choose a color
@@ -60,20 +60,20 @@ calendar:
     optionLabel: Records
     prefilterLabel: Prefilter events
     prefilterPlaceholder: field1 = 1 AND field2 = 232
-    titleLabel: Title
+    titleLabel: Titel
     titlePlaceholder: (Kein Feld)
   reminderFeed:
-    colorLabel: Event color
-    optionLabel: Reminders
-  today: Today
+    colorLabel: Ereignisfarbe
+    optionLabel: Erinnerungen
+  today: Heute
   view:
-    dayGridMonth: Month
-    default: Default view
-    enabled: Enabled views
+    dayGridMonth: Monat
+    default: Standardansicht
+    enabled: Aktivierte Ansichten
     footnote: Make sure default is one of the available views
-    listMonth: Agenda
-    timeGridDay: Day
-    timeGridWeek: Week
+    listMonth: Tagesordnung
+    timeGridDay: Tag
+    timeGridWeek: Woche
     onEventClick: On event click
     openInSameTab: Open record in the same tab
     openInNewTab: Open record in a new tab
@@ -104,32 +104,32 @@ chart:
     dimension:
       function:
         date: DATE
-        label: Function
+        label: Funktion
         month: MONTH
         none: (no grouping / buckets)
         placeholder: Select dimension modifier (bucket size)
         quarter: QUARTER
         week: WEEK
         year: YEAR
-  label: Chart
-  pick: Pick a chart
-  delete: Delete
+  label: Diagramm
+  pick: Wähle ein Diagramm
+  delete: Löschen
   preview:
     chartId: Chart preview (ID {{0}})
   searchPlaceholder: Type here to search all charts in this namespace
   openInBuilder: Open in chart builder
 content:
   ok: Ok
-  label: Content
-  openLinkInNewTab: Open link in a new tab
-  urlPlaceholder: https://example.tld
+  label: Inhalt
+  openLinkInNewTab: Link in einem neuen Tab öffnen
+  urlPlaceholder: https://beispiel.tld
 file:
-  label: File
+  label: Datei
   preview:
-    label: File block
+    label: Dateiblock
 general:
   descriptionLabel: '$t(general.label.description)'
-  descriptionPlaceholder: Block description
+  descriptionPlaceholder: Blockbeschreibung
   headerStyle: Block header style (color)
   magnifyLabel: Block Magnification
   magnifyOptions:
@@ -138,33 +138,33 @@ general:
     fullscreen: Fullscreen
   wrap: Display block as a card
   hidden:
-    label: Hidden
+    label: Versteckt
   refresh:
-    label: Refresh
-    auto: Auto refresh
-    show: Show refresh button
-    description: Setting value to 5 seconds or more enables auto-refresh
-    rate: seconds
+    label: Aktualisieren
+    auto: Automatisch aktualisieren
+    show: Aktualisierungsbutton anzeigen
+    description: Wert auf 5 Sekunden oder mehr legt die automatische Aktualisierung an
+    rate: Sekunden
   border:
-    show: Show border
+    show: Rahmen anzeigen
   label:
-    add: Add
-    back: Back
-    edit: Edit
-    general: General
-    import: Import
-    next: Next
-    none: None
+    add: Hinzufügen
+    back: Zurück
+    edit: Bearbeiten
+    general: Allgemein
+    import: Importieren
+    next: Weiter
+    none: Keine
     ok: Ok
-    permissions: Permissions
-    remove: Remove
-    save: Save
-    cancel: Cancel
-    search: Search
-    refresh: Refresh block
+    permissions: Berechtigungen
+    remove: Entfernen
+    save: Speichern
+    cancel: Abbrechen
+    search: Suchen
+    refresh: Block aktualisieren
     magnify: Magnify block
-    and: And
-  module: Module
+    and: Und
+  module: Modul
   style:
     danger: Danger variant
     default: Dark variant
@@ -206,17 +206,17 @@ metric:
     labelPlaceholder: Label
     metricFieldLabel: Field
     metricFieldPlaceholder: Dimension field
-    metricLabel: Metric
-    metricFieldSelect: Select field
+    metricLabel: Metrisch
+    metricFieldSelect: Feld auswählen
     metricSelectAggregate: Select aggregation operation
     metricAggregateLabel: Aggregation operation
-    moduleLabel: Module
-    modulePlaceholder: Pick a module
-    numberFormat: Number format
-    operationAvg: Avg
+    moduleLabel: Modul
+    modulePlaceholder: Modul auswählen
+    numberFormat: Zahlenformat
+    operationAvg: Durchschnittlich
     operationLabel: Aggregation operation
-    operationMax: Max
-    operationMin: Min
+    operationMax: Max.
+    operationMin: Min.
     operationPlaceholder: Aggregation operation
     operationStd: Std
     operationSum: Sum
@@ -228,9 +228,9 @@ metric:
     transformFunctionLabel: Transform value
   editStyle:
     backgroundColor: Background color
-    color: Text color
-    colorPicker: Choose a color
-    fontSize: Font size in pixels
+    color: Textfarbe
+    colorPicker: Farbe auswählen
+    fontSize: Schriftgröße in Pixeln
     labelLabel: Label style
     valueLabel: Value style
   label: Metric
@@ -243,8 +243,8 @@ record:
   deleteRecord: Delete record
   invalidOwnerVar: Can not use ${ownerID} variable in non-record pages
   invalidRecordVar: Can not use ${record...} variable in non-record pages
-  label: Record
-  listLoadFailed: Could not load record list
+  label: Datensatz
+  listLoadFailed: Konnte Datensatzliste nicht laden
   moduleOrPageNotSet: 'RecordList block error: module or page option not set'
   moduleMismatch: Module incompatible, module mismatch
   horizontalFormLayout: Horizontal form layout
@@ -253,8 +253,8 @@ record:
   preview:
     blockNoRecord: Cannot render this block without a record
     fieldsFromModule: Single record block, displaying fields ({{0}}) from module {{1}}
-    untitled: Untitled
-  recordDeleted: This record was deleted
+    untitled: Ohne Titel
+  recordDeleted: Dieser Datensatz wurde gelöscht
   recordSelectorDisplayOptions: On record selector click
   openInSameTab: Open record in the same tab
   openInNewTab: Open record in a new tab
@@ -382,7 +382,7 @@ recordList:
   hideRecordReminderButton: Hide record reminder button
   hideRecordViewButton: Hide view record button
   hideConfigureFieldsButton: Users will be able to configure which fields to display
-  enableRecordPageNavigation: Users will be able to navigate to previous/next record
+  enableRecordPageNavigation: Benutzer können zum vorherigen/nächsten Datensatz navigieren
   import:
     dropzoneFileAdded: '{{name}} was uploaded and is ready for import ({{count}} record)'
     dropzoneFileAdded_plural: '{{name}} was uploaded and is ready for import ({{count}} records)'
@@ -418,8 +418,8 @@ recordList:
   moduleFieldsFootnote: If no fields are selected, the default fields will be shown
   noRecords: There are no records matching your request
   pagination:
-    next: Next
-    prev: Previous
+    next: Weiter
+    prev: Vorherige
     showing: '{{from}} - {{to}} of {{count}} records'
     single: One record
     single_plural: '{{count}} records'
@@ -485,13 +485,13 @@ recordList:
     linkToParent: Link to parent record
     buttons: Record buttons
     tooltip:
-      clone: Clone
-      edit: Edit
-      delete: Delete
-      restore: Restore
-      reminder: Reminder
-      view: View
-      permissions: Permissions
+      clone: Klonen
+      edit: Bearbeiten
+      delete: Löschen
+      restore: Wiederherstellen
+      reminder: Erinnerungen
+      view: Ansicht
+      permissions: Berechtigungen
     recordDisplayOptions: On record click
     recordSelectorDisplayOptions: On record selector click
   recordPage: record page
@@ -573,9 +573,9 @@ recordRevisions:
         label:
           label: Label
         kind:
-          label: Type
+          label: Typ
         displayed-fields:
-          label: Show
+          label: Zeigen
         expanded-references:
           label: Expand references
 socialFeed:
@@ -594,22 +594,22 @@ field:
   inlineEdit:
     enabled: Inline value editing enabled
     button:
-      title: Edit value
+      title: Wert bearbeiten
     modal:
-      title: Update record values
+      title: Datensatzwerte aktualisieren
 comment:
-  label: Comments
+  label: Kommentare
   titleField:
-    label: Title field
+    label: Titelfeld
     footnote: Field value will be used as record title
   contentField:
     label: Content field *
     footnote: Field value will be used as record content
   titleInput: Enter comment title
   contentInput: Enter comment content
-  submit: Submit
+  submit: Absenden
   sortDirection:
-    label: Sort direction
+    label: Sortierrichtung
     footnote: Field value will be used as sorting direction reference
     asc: ASC
     desc: DESC
@@ -629,14 +629,14 @@ navigation:
   enabled: Enabled
   openIn: Open in
   navigationItems: Navigation items
-  type: Type
-  disabled: Disabled
-  color: Color
-  background: Background
+  type: Typ
+  disabled: Deaktiviert
+  color: Farbe
+  background: Hintergrund
   url: URL
   drop: Dropdown position
-  add: Add navigation item
-  addDropdown: Add dropdown item
+  add: Navigationselement hinzufügen
+  addDropdown: Dropdown-Element hinzufügen
   composePage: Compose page
   tabs: Tabs
   pills: Pills
@@ -645,18 +645,18 @@ navigation:
   left: Left
   right: Right
   bottom: Bottom
-  top: Top
-  None: None
-  primary: Primary
-  secondary: Secondary
-  success: Success
-  warning: Warning
-  danger: Danger
+  top: Oben
+  None: Keine
+  primary: Primär
+  secondary: Sekundär
+  success: Erfolgreich
+  warning: Warnung
+  danger: Gefahr
   info: Info
   text: Text
   dropdown: Dropdown
-  multi: Multiline
-  sameTab: Same tab
+  multi: Mehrzeilig
+  sameTab: Gleicher Tab
   selectOpenInType: Select open in type
   newTab: New tab
   dropdownItems: Dropdown items
@@ -667,7 +667,7 @@ navigation:
   preview:
     preview: Preview
     label: Label
-    home: Home
+    home: Startseite
     dropdown: dropdown
     about: about
 report:
@@ -678,8 +678,8 @@ report:
     label: Display element
     description: Display elements are grouped by their respective block
 progress:
-  add: + Add
-  count: Count
+  add: + Hinzufügen
+  count: Anzahl
   aggregate:
     label: Aggregation operation
     select: Select aggregation operation
@@ -688,22 +688,22 @@ progress:
   display-options: Display options
   fetch-failed: Failed to fetch progress bar report
   field:
-    label: Field
-    select: Select field
-  label: Progress bar
+    label: Feld
+    select: Feld auswählen
+  label: Fortschrittsbalken
   module:
-    select: Select module
-    label: Module
-  preview: Live example
+    select: Modul auswählen
+    label: Modul
+  preview: Live-Beispiel
   show:
-    value: Show value
+    value: Wert anzeigen
     relative: Show relative
     progress: Show progress
   tab:
-    label: Progress
-  thresholds: Thresholds
+    label: Fortschritt
+  thresholds: Grenzwerte
   threshold:
-    label: Threshold
+    label: Grenzwert
     variant: Set which variant to show if value is equal or larger than the threshold
   value:
     label: Value
@@ -767,8 +767,8 @@ geometry:
     prefilterLabel: Prefilter sources
     colorLabel: Marker color
     geometryFieldLabel: Geometry field*
-    titleLabel: Title
-    titlePlaceholder: Title
+    titleLabel: Titel
+    titlePlaceholder: Titel
     geometryFieldPlaceholder: Geometry field
     displayMarker: Display marker
     displayPolygon: Display polygon
@@ -789,9 +789,9 @@ tabs:
   label: Tabs
   alertTitle: Set a title for your block
   title: Tabs
-  addTab: + Add
+  addTab: + Hinzufügen
   tab: Tab
-  selectBlock: Choose a block
+  selectBlock: Block auswählen
   noTabs: No tabs configured
   noBlock: No block configured
   displayTitle: Display Options
@@ -805,12 +805,12 @@ tabs:
       label: Appearance
       tabs: Tabs
       pills: Pills
-      small: Small
+      small: Klein
     alignment:
-      label: Alignment
-      left: Left
-      center: Center
-      right: Right
+      label: Ausrichtung
+      left: Links
+      center: Zentriert
+      right: Rechts
     justify:
       label: Justify
       justify: Justify
@@ -826,15 +826,15 @@ tabs:
   table:
     columns:
       title:
-        label: Title
+        label: Titel
       block:
         label: Block
   tooltip:
-    edit: Edit block
+    edit: Block bearbeiten
     clone: Clone block & tab
-    copy: Copy block
-    delete: Delete tab
+    copy: Block kopieren
+    delete: Tab löschen
     editDisabled: Editing tabbed blocks is disabled until you save this block
-    addBlock: Add new block
-noConfiguration: Block not configured correctly
+    addBlock: Neuen Block hinzufügen
+noConfiguration: Block nicht korrekt konfiguriert
 interpolationFootnote: Variables like {{0}}, {{1}}, {{2}} and {{3}} are evaluated (when available)
